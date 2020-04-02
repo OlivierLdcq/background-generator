@@ -1,3 +1,6 @@
+
+var _ = require('lodash');
+console.log(_);
 const color1 = document.querySelector('#color1');
 const color2 = document.querySelector('#color2');
 const h3 =  document.querySelector('#h3');
@@ -23,11 +26,7 @@ button.addEventListener('click', function(e) {
 	
 	setBackground();
 
-
-
-	
 });
 
-
-	
+		
 
